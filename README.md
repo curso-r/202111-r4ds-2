@@ -16,9 +16,9 @@
 
 Fora do horário de aula ou monitoria:
 
--   perguntas gerais sobre o curso deverão ser feitas no Classroom.
+-   Perguntas gerais sobre o curso deverão ser feitas no Classroom.
 
--   perguntas sobre R, principalmente as que envolverem código, deverão
+-   Perguntas sobre R, principalmente as que envolverem código, deverão
     ser enviadas no [nosso fórum](https://discourse.curso-r.com/).
 
 ## Slides
@@ -45,13 +45,15 @@ Fora do horário de aula ou monitoria:
 -   [Repositório da análise dos dados do
     Brasileirão](https://github.com/curso-r/analiseBrasileirao)
 
-| script | link |
-|:-------|:-----|
+| script                     | link                                                                         |
+|:---------------------------|:-----------------------------------------------------------------------------|
+| 01-organizacao-projeto.Rmd | <https://curso-r.github.io/202111-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
 
 ## Lição de casa
 
-| exercicio |
-|:----------|
+| Aula | Descrição                                                                                                                                                                                                                                                                                                                        |
+|-----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    1 | [Faça um documento em R Markdown mostrando as 10 delegacias com mais roubo de carro no Estado de SP. Use a base “ssp” presente na pasta “data” no material do curso. Faça isso seguindo o modelo de organização de projetos visto na primeira aula.](https://curso-r.github.io/main-r4ds-2/slides/01-organizacao-projeto.html#1) |
 
 ## Lição de casa extra 🤓
 
@@ -69,8 +71,10 @@ Referências extras comentadas nas aulas, ou materiais que comentamos
 quando tiramos dúvidas (não necessariamente são relacionadas com o
 conteúdo da aula).
 
-| Aula | Tema | Descrição |
-|:-----|:-----|:----------|
+| Aula | Tema             | Descrição                                                        |
+|-----:|:-----------------|:-----------------------------------------------------------------|
+|    1 | Dados extras     | [Pacote brasileirao](https://github.com/williamorim/brasileirao) |
+|    1 | Conversa/Dúvidas | [Criando funções](https://r4ds.had.co.nz/functions.html)         |
 
 ## Redes sociais da Curso-R
 
