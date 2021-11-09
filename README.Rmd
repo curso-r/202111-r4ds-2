@@ -1,10 +1,10 @@
 ---
 output: github_document
-params: 
+params:
   main_repo: "main-r4ds-2"
   turma: "202111-r4ds-2"
   nome_curso: "R para Ciência de Dados II"
-  num_aula: 1
+  num_aula: 2
   download_material: TRUE # Deixe TRUE se quiser que tenha um link
   # para baixar o zip do material
 ---
@@ -48,11 +48,10 @@ Fora do horário de aula ou monitoria:
 paths <- CursoRutils:::list_github_files(params$main_repo, "slides/", "[0-9]-.*html$")
 tibble::tibble(
   slide = paths,
-  link = paste0("https://curso-r.github.io/", params$main_repo, "/", slide),
-    slides = glue::glue("[{slide}]({link})")
-) %>% 
+  link = paste0("https://curso-r.github.io/", params$main_repo, "/", slide)
+) %>%
   dplyr::filter(!stringr::str_detect(slide, "_files/")) %>%
-    dplyr::select(slides) %>% 
+  dplyr::mutate(slide = fs::path_file(slide)) %>% 
   knitr::kable()
 ```
 
@@ -62,21 +61,17 @@ tibble::tibble(
 ### Parte teórica
 
 ```{r}
-pasta <- "scripts/"
+pasta <- "teorica/"
 knitr::kable(
   tibble::tibble(
     script = list.files(pasta, pattern = ".R$"),
-    link = paste0("https://curso-r.github.io/", params$turma, "/", pasta, script),
-    scrpit = glue::glue("[{script}]({link})")
-  ) %>%
-    dplyr::select(script)
+    link = paste0("https://curso-r.github.io/", params$turma, "/", pasta, script)
+  )
 )
 ```
 
 
 ### Parte prática
-
-- [Repositório da análise dos dados do Brasileirão](https://github.com/curso-r/analiseBrasileirao)
 
 ```{r}
 pasta <- "pratica/"
@@ -94,7 +89,7 @@ knitr::kable(
 
 ```{r}
 readxl::read_excel("tab_exercicios.xlsx") %>%
-  dplyr::filter(extra == "nao", aula <= params$num_aula) %>% 
+  dplyr::filter(extra == "nao", aula <= params$num_aula) %>%
   dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
   dplyr::select(-desc, -url, -extra) %>%
   knitr::kable(col.names = c("Aula", "Descrição"))
@@ -104,7 +99,7 @@ readxl::read_excel("tab_exercicios.xlsx") %>%
 
 ```{r}
 readxl::read_excel("tab_exercicios.xlsx") %>%
-  dplyr::filter(extra == "sim", aula <= params$num_aula) %>% 
+  dplyr::filter(extra == "sim", aula <= params$num_aula) %>%
   dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
   dplyr::select(-desc, -url, -extra) %>%
   knitr::kable(col.names = c("Aula", "Descrição"))
@@ -126,7 +121,7 @@ tibble::tibble(
     nome_pasta, "/",
     script
   )
-) %>% 
+) %>%
   knitr::kable()
 ```
 
@@ -138,14 +133,14 @@ Referências extras comentadas nas aulas, ou materiais que comentamos quando tir
 
 ```{r echo=FALSE, message=FALSE}
 googledrive::drive_deauth()
-"1SmCKCvJBff3CVty-xYKJ4NhEo2j6sUwkdET46vQisDY" %>% 
-  googledrive::as_id() %>% 
+"1SmCKCvJBff3CVty-xYKJ4NhEo2j6sUwkdET46vQisDY" %>%
+  googledrive::as_id() %>%
   googlesheets4::read_sheet(params$main_repo) %>%
   dplyr::mutate(link = glue::glue("[{desc}]({url})")) %>%
   dplyr::select(-desc, -url) %>%
-  dplyr::arrange(aula) %>% 
-  dplyr::filter(aula <= params$num_aula) %>% 
-  knitr::kable(col.names = c("Aula", "Tema", "Descrição")) 
+  dplyr::arrange(aula) %>%
+  dplyr::filter(aula <= params$num_aula) %>%
+  knitr::kable(col.names = c("Aula", "Tema", "Descrição"))
 
 ```
 
@@ -172,7 +167,7 @@ if(params$download_material == TRUE){
     "title: {params$nome_curso}", '\n',
     "show_downloads: true", '\n',
     "link_material: 'https://github.com/curso-r/{params$main_repo}/raw/master/material_do_curso.zip'", '\n'
-    
+
     ) %>%
     readr::write_lines( "_config.yml")
 }
