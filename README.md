@@ -49,6 +49,7 @@ Fora do horário de aula ou monitoria:
 | 01-organizacao-projeto.Rmd | <https://curso-r.github.io/202111-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
 | 02-dplyr-tidyr.R           | <https://curso-r.github.io/202111-r4ds-2/pratica/02-dplyr-tidyr.R>           |
 | 03-stringr.R               | <https://curso-r.github.io/202111-r4ds-2/pratica/03-stringr.R>               |
+| 04-lubridate-forcats.R     | <https://curso-r.github.io/202111-r4ds-2/pratica/04-lubridate-forcats.R>     |
 
 ## Lição de casa
 
@@ -58,6 +59,8 @@ Fora do horário de aula ou monitoria:
 |    2 | [Exercícios de dplyr 1.0](https://livro.curso-r.com/7-2-dplyr.html#exerc%C3%ADcios-17)                                                                                                                                                                                                                                           |
 |    2 | [Exercícios de tidyr](https://livro.curso-r.com/7-3-tidyr.html#exerc%C3%ADcios-18)                                                                                                                                                                                                                                               |
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                                                                     |
+|    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                                                                 |
+|    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                                                              |
 
 ## Lição de casa extra 🤓
 
@@ -68,6 +71,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Calcular o lucro médio por gênero do filme na base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                                                              |
 |    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                             |
 |    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                    |
+|    4 | [forcats: leitura extra](https://livro.curso-r.com/7-6-forcats.html#forcats)                                                                                                                      |
 
 ## Trabalhos finais premiados
 
@@ -89,6 +93,9 @@ conteúdo da aula).
 |    3 | Manual           | [Documentação das regex no R](https://stringi.gagolewski.com/rapi/about_search_regex.html)                 |
 |    3 | Regex            | [Regex interativo](https://regex101.com/)                                                                  |
 |    3 | Conversa/Dúvidas | [Transliteração](https://blog.curso-r.com/posts/2019-08-29-transliteracao/)                                |
+|    4 | Manual           | [Colinha do {lubridate}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/lubridate.pdf)       |
+|    4 | Manual           | [Colinha do {forcats}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/factors.pdf)           |
+|    4 | Conversa/Dúvidas | [Códigos para abreviar datas](https://www.stat.berkeley.edu/~s133/dates.html)                              |
 
 ## Redes sociais da Curso-R
 
