@@ -41,6 +41,7 @@ Fora do horário de aula ou monitoria:
 |:-----------------|:-------------------------------------------------------------------|
 | 02-dplyr-tidyr.R | <https://curso-r.github.io/202111-r4ds-2/teorica/02-dplyr-tidyr.R> |
 | 03-stringr.R     | <https://curso-r.github.io/202111-r4ds-2/teorica/03-stringr.R>     |
+| 05-purrr.R       | <https://curso-r.github.io/202111-r4ds-2/teorica/05-purrr.R>       |
 
 ### Parte prática
 
@@ -50,6 +51,7 @@ Fora do horário de aula ou monitoria:
 | 02-dplyr-tidyr.R           | <https://curso-r.github.io/202111-r4ds-2/pratica/02-dplyr-tidyr.R>           |
 | 03-stringr.R               | <https://curso-r.github.io/202111-r4ds-2/pratica/03-stringr.R>               |
 | 04-lubridate-forcats.R     | <https://curso-r.github.io/202111-r4ds-2/pratica/04-lubridate-forcats.R>     |
+| 05-purrr.R                 | <https://curso-r.github.io/202111-r4ds-2/pratica/05-purrr.R>                 |
 
 ## Lição de casa
 
@@ -61,6 +63,7 @@ Fora do horário de aula ou monitoria:
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                                                                     |
 |    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                                                                 |
 |    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                                                              |
+|    5 | [Exercícios de purrr](https://livro.curso-r.com/10-5-exerc%C3%ADcios-23.html)                                                                                                                                                                                                                                                    |
 
 ## Lição de casa extra 🤓
 
@@ -72,6 +75,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                             |
 |    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                    |
 |    4 | [forcats: leitura extra](https://livro.curso-r.com/7-6-forcats.html#forcats)                                                                                                                      |
+|    5 | [Exercícios do livro R for Data Science (inglês)](https://r4ds.had.co.nz/iteration.html#exercises-61)                                                                                             |
 
 ## Trabalhos finais premiados
 
@@ -96,6 +100,12 @@ conteúdo da aula).
 |    4 | Manual           | [Colinha do {lubridate}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/lubridate.pdf)       |
 |    4 | Manual           | [Colinha do {forcats}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/factors.pdf)           |
 |    4 | Conversa/Dúvidas | [Códigos para abreviar datas](https://www.stat.berkeley.edu/~s133/dates.html)                              |
+|    5 | Tutorial         | [A Magia de {purrr}](https://lente.dev/posts/magica-purrr/)                                                |
+|    5 | Aprofundamento   | [Webinar de {purrr} avançado](https://www.youtube.com/watch?v=vb1lD9_AFcU)                                 |
+|    5 | Aprofundamento   | [Exemplos com {purrr}](https://lente.dev/advanced-purrr.pdf)                                               |
+|    5 | Manual           | [Colinha do {purrr}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/purrr.pdf)               |
+|    5 | Tutorial         | [Tutorial de {purrr}](https://jennybc.github.io/purrr-tutorial/)                                           |
+|    5 | Aprofundamento   | [R for Data Science: Iteration](https://r4ds.had.co.nz/iteration.html)                                     |
 
 ## Redes sociais da Curso-R
 
