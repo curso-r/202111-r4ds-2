@@ -52,6 +52,7 @@ Fora do horário de aula ou monitoria:
 | 03-stringr.R               | <https://curso-r.github.io/202111-r4ds-2/pratica/03-stringr.R>               |
 | 04-lubridate-forcats.R     | <https://curso-r.github.io/202111-r4ds-2/pratica/04-lubridate-forcats.R>     |
 | 05-purrr.R                 | <https://curso-r.github.io/202111-r4ds-2/pratica/05-purrr.R>                 |
+| 06-nse.R                   | <https://curso-r.github.io/202111-r4ds-2/pratica/06-nse.R>                   |
 
 ## Lição de casa
 
@@ -64,6 +65,7 @@ Fora do horário de aula ou monitoria:
 |    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                                                                 |
 |    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                                                              |
 |    5 | [Exercícios de purrr](https://livro.curso-r.com/10-5-exerc%C3%ADcios-23.html)                                                                                                                                                                                                                                                    |
+|    6 | [Exercícios NSE](https://livro.curso-r.com/11-1-nse.html#exerc%C3%ADcios-24)                                                                                                                                                                                                                                                     |
 
 ## Lição de casa extra 🤓
 
@@ -106,6 +108,13 @@ conteúdo da aula).
 |    5 | Manual           | [Colinha do {purrr}](https://raw.githubusercontent.com/rstudio/cheatsheets/master/purrr.pdf)               |
 |    5 | Tutorial         | [Tutorial de {purrr}](https://jennybc.github.io/purrr-tutorial/)                                           |
 |    5 | Aprofundamento   | [R for Data Science: Iteration](https://r4ds.had.co.nz/iteration.html)                                     |
+|    6 | Manual           | [Anúncio do {rlang} 0.4](https://www.tidyverse.org/blog/2019/06/rlang-0-4-0/)                              |
+|    6 | Manual           | [Interpolação no {rlang}](https://www.tidyverse.org/blog/2020/02/glue-strings-and-tidy-eval/)              |
+|    6 | Manual           | [Programando com o {dplyr}](https://dplyr.tidyverse.org/articles/programming.html)                         |
+|    6 | Aprofundamento   | [Metaprogramação](https://adv-r.hadley.nz/metaprogramming.html)                                            |
+|    6 | Tutorial         | [{rlang} para Filhotes](https://blog.curso-r.com/posts/2021-07-27-rlang-para-filhotes)                     |
+|    6 | Manual           | [Colinha de {rmarkdown}](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)      |
+|    6 | Tutorial         | [Capítulo sobre RMarkdown](https://livro.curso-r.com/9-2-r-markdown.html)                                  |
 
 ## Redes sociais da Curso-R
 

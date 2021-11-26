@@ -4,7 +4,7 @@ params:
   main_repo: "main-r4ds-2"
   turma: "202111-r4ds-2"
   nome_curso: "R para Ciência de Dados II"
-  num_aula: 5
+  num_aula: 6
   download_material: TRUE # Deixe TRUE se quiser que tenha um link
   # para baixar o zip do material
 ---
